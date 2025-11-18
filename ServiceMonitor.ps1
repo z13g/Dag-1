@@ -52,7 +52,9 @@ $results = foreach ($svc in $services) {
     if ($null -eq $p) { continue }
 
     # CPU = total CPU seconds (Process CPU time)
-    $cpu = $p.CPU
+    # $cpu = $p.CPU
+    $cpu = [math]::Round($p.CPU, 2)
+
 
     # RAM = WorkingSet i bytes → konverter til MB
     $ramMB = [math]::Round($p.WorkingSet64 / 1MB, 2)
