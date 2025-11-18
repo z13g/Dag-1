@@ -1,0 +1,7 @@
+New-User -Name "Kasper" -Age 23
+Get-User -Name "Kasper"
+Set-User -Name "Kasper" -Age 50
+Remove-User -Name "Kasper"
+Export-Users -Path .\users.json
+Import-Users -Path .\users.json -Verbose
+Get-All-Users
