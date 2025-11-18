@@ -84,3 +84,5 @@ function Remove-User {
 Write-Output "=== UserManagement script ready ==="
 
 # Dette er en test ændring for at tjekke git integration.
+
+# Tilføjet kommentar 2
