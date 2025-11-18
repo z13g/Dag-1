@@ -1,0 +1,15 @@
+﻿
+ServiceName      PID      CPU MemoryMB
+-----------      ---      --- --------
+gpsvc          17144 5.734375   128.02
+FontCache      17144 5.734375   124.72
+FMAPOService   17144 5.703125   122.96
+EapHost        17144 5.671875   120.92
+hidserv        17144 5.765625   120.63
+EventSystem    17144 5.703125   120.24
+EventLog       17144 5.703125   119.64
+lmhosts        17144 5.796875   118.72
+LITSSVC        17144 5.796875   118.72
+LicenseManager 17144 5.796875   118.72
+
+
